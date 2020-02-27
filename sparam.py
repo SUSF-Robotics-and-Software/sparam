@@ -24,4 +24,5 @@ class SParam:
         """
         obj = cls()
         obj.__dict__.update(dict)
+        obj.raw = dict
         return obj
